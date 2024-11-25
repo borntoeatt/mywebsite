@@ -158,3 +158,34 @@ footer {
         font-size: 1.5rem;
     }
 }
+/* Button Style */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue background */
+    color: #ffffff; /* White text */
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+/* Logo Style */
+.logo {
+    width: 150px; /* Adjust to your logo's desired size */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the logo */
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+}

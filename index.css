@@ -1,0 +1,160 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Subtle light background */
+    color: #333; /* Black text */
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #007bff; /* Blue background */
+    color: #ffffff; /* White text */
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+header .header-content h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+header .header-content p {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333; /* Black background */
+    padding: 0.5rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #ffffff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Titles */
+h2 {
+    color: #007bff; /* Blue section titles */
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    text-align: left;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 0.3rem;
+}
+
+/* About Me Section */
+#about p {
+    margin: 1rem 0;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #444; /* Slightly darker text */
+}
+
+/* Experience & Projects Section */
+.job, .project {
+    background-color: #f9f9f9; /* Light grey background for cards */
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.job h3, .project h3 {
+    margin: 0 0 0.5rem;
+    color: #007bff; /* Blue text for headings */
+}
+
+.job p, .project p {
+    margin: 0.5rem 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Contact Section */
+#contact p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+#contact a {
+    color: #007bff; /* Blue links */
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333; /* Black background */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header .header-content h1 {
+        font-size: 2rem;
+    }
+
+    header .header-content p {
+        font-size: 1rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}

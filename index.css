@@ -178,7 +178,7 @@ footer {
 }
 /* Logo Style */
 .logo {
-    width: 150px !important; /* Adjust to your logo's desired size */
+    width: 250px !important; /* Adjust to your logo's desired size */
     height: auto !important;
     display: block;
     margin: 0 auto; /* Center the logo */

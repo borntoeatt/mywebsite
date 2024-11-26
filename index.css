@@ -82,7 +82,7 @@ h2 {
     margin: 1rem 0;
     font-size: 1rem;
     line-height: 1.8;
-    color: #444; /* Slightly darker text */
+    color: #999191; /* Slightly darker text */
 }
 
 /* Experience & Projects Section */
@@ -204,7 +204,7 @@ body.dark-mode {
 }
 
 body.dark-mode a {
-    color: #4CAF50; /* Green color for links in dark mode */
+    color: #f7de01; /* Yellow color for links in dark mode */
 }
 
 /* Dark mode for specific elements */
@@ -224,4 +224,104 @@ body.dark-mode button {
 body button {
     background-color: #ddd; /* Light button background */
     color: black; /* Dark text on buttons in light mode */
+}
+
+/* Default light mode styles */
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text */
+}
+
+/* Dark mode for specific elements */
+body.dark-mode header {
+    background-color: #1e1e2f; /* Darker background for header */
+}
+
+body.dark-mode main {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+body.dark-mode nav {
+    background-color: #1a1a1a; /* Dark nav bar */
+}
+
+body.dark-mode nav ul li a {
+    color: #e0e0e0; /* Light text in navigation */
+}
+
+body.dark-mode nav ul li a:hover {
+    color: #f7de01; /* Yellow hover effect */
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode p {
+    color: #ffffff; /* Ensure all headings are readable */
+}
+
+body.dark-mode h2 {
+    border-bottom: 2px solid #4caf50; /* Yellow underline for section titles */
+}
+
+body.dark-mode a {
+    color: #f7de01; /* Yellow links */
+}
+
+body.dark-mode a:hover {
+    color: #f7de01; /* Light Yellow hover effect */
+}
+
+body.dark-mode .job,
+body.dark-mode .project {
+    background-color: #2a2a2a; /* Card background */
+    border-color: #3a3a3a; /* Subtle border */
+}
+
+body.dark-mode footer {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+body.dark-mode button,
+body.dark-mode .button {
+    background-color: #333; /* Dark button background */
+    color: #ffffff;
+}
+
+body.dark-mode .button:hover {
+    background-color: #555; /* Lighter button hover */
+}
+body {
+    transition: background-color 1.13s ease, color 1.1s ease;
+}
+
+
+
+
+/* Button Styling for Dark Mode Toggle */
+.dark-mode-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.dark-mode-toggle:hover {
+    background-color: #347fe2;
+    color: #ffffff;
 }

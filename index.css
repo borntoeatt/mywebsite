@@ -325,3 +325,61 @@ body {
     background-color: #347fe2;
     color: #ffffff;
 }
+
+
+
+
+
+
+
+
+
+/* Section Styling */
+#about {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem auto;
+    max-width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Content Headings */
+#about h2, #about h3 {
+    color: #007bff; /* Blue for headings */
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+/* Paragraph Text */
+#about p {
+    color: #444;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Highlighted Text */
+#about strong {
+    color: #333; /* Black for emphasis */
+    font-weight: bold;
+}
+
+/* List Styling */
+#about ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+}
+
+#about ul li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Section Spacing */
+.content {
+    padding: 1rem;
+}

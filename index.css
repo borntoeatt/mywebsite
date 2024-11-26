@@ -3,14 +3,14 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f5f9; /* Subtle light background */
+    background-color: #f4f4f9; /* Subtle light background */
     color: #333; /* Black text */
     line-height: 1.6;
 }
 
 /* Header */
 header {
-    background-color: #007bffec; /* Blue background */
+    background-color: #007bff; /* Blue background */
     color: #ffffff; /* White text */
     padding: 3rem 1rem;
     text-align: center;
@@ -173,12 +173,12 @@ footer {
 }
 
 .button:hover {
-    background-color: #c7c7c7; /* Darker blue on hover */
+    background-color: #0056b3; /* Darker blue on hover */
     transform: translateY(-2px); /* Slight lift on hover */
 }
 /* Logo Style */
 .logo {
-    width: 300px !important; /* Adjust to your logo's desired size */
+    width: 250px !important; /* Adjust to your logo's desired size */
     height: auto !important;
     display: block;
     margin: 0 auto; /* Center the logo */
@@ -189,70 +189,12 @@ footer {
     transform: scale(1.1); /* Slight zoom on hover */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
 }
-/* Light Mode (Default) */
-body {
-    background-color: #ffffff;
-    color: #000000;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-header, nav, footer {
-    background-color: #1b1d20;
-    color: #ffffff;
-}
-
-/* Dark Mode */
-body.dark-mode {
-    background-color: #121212;
-    color: #ffffff;
-}
-
-header.dark-mode, nav.dark-mode, footer.dark-mode {
-    background-color: #1e1e1e;
-    color: #ffffff;
-}
-
-/* Button Styling for Dark Mode Toggle */
-.dark-mode-toggle {
-    position: absolute;
-    top: 270px;
-    right: 20px;
-    background-color: #d3b532;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 15px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.dark-mode-toggle:hover {
-    background-color: #000000;
-    color: #d3b532;
-}
-body {
-    transition: background-color 1.3s ease, color 1.3s ease;
-}
-
-
-
-
 
 /* Default light mode styles */
 body {
     background-color: white;
     color: black;
     font-family: Arial, sans-serif;
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
-}
-
-a {
-    color: blue; /* Links in light mode */
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 /* Dark mode styles */
@@ -265,6 +207,7 @@ body.dark-mode a {
     color: #4CAF50; /* Green color for links in dark mode */
 }
 
+/* Dark mode for specific elements */
 body.dark-mode h1,
 body.dark-mode h2,
 body.dark-mode h3,
@@ -281,4 +224,4 @@ body.dark-mode button {
 body button {
     background-color: #ddd; /* Light button background */
     color: black; /* Dark text on buttons in light mode */
-}  
+}
